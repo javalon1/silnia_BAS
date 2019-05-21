@@ -11,7 +11,6 @@ public class App {
 
     public static double ciag(int n){
 
-
         if(n == 1){
 
             return 1;
@@ -24,13 +23,9 @@ public class App {
 
         }
 
-
-
         return -ciag(n-1) * ciag(n-2);
 
     }
-
-
 
     public static int ciag2(int n){
 
@@ -44,15 +39,9 @@ public class App {
 
     }
 
-
-
     public static int silnia(int n){
 
-
-
         System.out.println(n);
-
-
 
         if(n<2){
 
@@ -62,19 +51,13 @@ public class App {
 
         return n * silnia(n-1);
 
-
-
     }
-
-
 
     public static void main( String[] args ) {
 
         System.out.println(ciag(5));
 
-        System.out.println(silnia(5));
-
-
+        System.out.println(silnia(15));
 
         // 5! = 5 * 4 * 3 * 2 * 1
 
